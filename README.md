@@ -16,3 +16,21 @@ or add
 ```
 
 to the ```require``` section of your `composer.json` file.
+
+## Usage
+
+### in your AssetBundle:
+```php
+public $depends = [
+    ...
+    'diiimonn\assets\SlimScroll',
+];
+```
+### in your.script.js
+
+```javascript
+...
+$('#your-content-id').slimScroll({/* options */});
+...
+```
+Demo and more: http://rocha.la/jQuery-slimScroll
