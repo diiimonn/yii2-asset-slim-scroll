@@ -4,6 +4,7 @@
     "keywords": ["slimscroll", "plugin", "jquery", "yii2", "extension", "asset"],
     "homepage": "https://github.com/diiimonn/yii2-asset-slimscroll",
     "type": "yii2-extension",
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "Dmitriy Gavrilenko",
