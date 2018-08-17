@@ -18,13 +18,4 @@ class SlimScrollAsset extends AssetBundle
     public $js = [
         'js/jquery.slimscroll.min.js'
     ];
-
-    public function init()
-    {
-        parent::init();
-
-        $this->publishOptions['beforeCopy'] = function($from, $to) {
-            return preg_match('~\.js$~', $from);
-        };
-    }
 }
